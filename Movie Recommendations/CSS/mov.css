@@ -1,0 +1,128 @@
+html, body {
+    width: 100%;
+    min-height:100%;
+    overflow: hidden;
+    background-color: aliceblue;
+    
+}
+
+header{
+    background-color: azure;   
+}
+
+.loading-not{
+    position: fixed;
+    padding: 20px 20px 20px 400px;
+}
+
+.page active{
+    background-color: darkblue;
+}
+
+
+
+#back-button{
+    float:left;
+    
+}
+.mid{
+    width: 100%;
+    border: .25px;
+}
+
+header{
+    border: 1px solid black;
+    padding: 55px .5px 55px .5px;
+    margin: 5px 5px 5px 5px;
+}
+
+.mid #back-button{
+    position: static;
+    float:left;
+    padding: 10px 5px 10px 245px;
+    
+}
+.mid #search-button{
+    position:static;
+    float:right;
+    padding: 10px 245px 15px 2px;
+    overflow: hidden;
+    
+}
+
+#search-input:active{
+    position:static;
+    float:right;
+   
+    overflow: hidden;
+   transform: translate(10px  20px);
+}
+
+
+
+.mid #search-input{
+    position: static;
+    padding: 15px 100px 15px 100px;
+    text-align: center;
+    font-size: 10px;
+    border: solid 3px black;
+}
+
+.page {
+    display:none;
+    width: 100%;
+    min-height:100%;
+    position:fixed;
+    padding: 2px;
+}
+.card{
+    clear:both;
+    clear:both;
+}
+
+
+
+.attribution{
+    top: 740px;
+    padding: 638px 15px 20px 400px; 
+    z-index: -1;
+   
+}
+
+
+main {
+    text-align: center;
+}
+
+.iconic #search-content {
+    color: white;
+    
+}
+
+.poster{
+    float: left;
+      overflow: hidden;
+      width: 100px;
+    padding: 10px 5px 75px 5px;
+}
+
+.active {
+    display: block;
+    overflow: hidden;
+    display: block;
+    z-index: 1;
+}
+
+#overlay {
+    position: fixed; 
+    display: none; 
+    width: 50%; 
+    height: 100%; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); 
+    z-index: 2;
+    cursor: pointer; 
+}

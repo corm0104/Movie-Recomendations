@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Recommendations</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="CSS/mov.css" />
+</head>
+<body>
+    <main>
+        <header class="mid">
+          
+           
+           
+            <img id="back-button" src="img/arrow-left-fill-acute-md-@2x.png" class="iconic iconic-sm" data-direction="left" alt="Back Button" title="Back" onclick="window.history.go(-1)"/>
+            
+            
+            <img id="search-button" class="iconic" src="img/magnifying-glass-md.svg" alt="Search" title="Search"/>
+            
+            <input type="text" id="search-input" placeholder="search" />
+        </header>
+        
+
+        <div class="page active" id="search-results">
+            <section class="title"></section>
+            <section class="content" id="search-content"></section>
+        </div>
+        
+        <div class="page" id="recommend-results">
+            <section class="title"></section>
+            <section class="content"></section>
+        </div>
+        
+    </main>
+    
+   
+    <div class="attribution">
+        <img src="img/408x161-powered-by-rectangle-blue.png" alt="The Movie DB" />
+    </div>
+    
+    <script src="img"></script>
+<!--    <script src="key.js"></script>-->
+    <script src="JS/mov.js"></script>
+</body>
+</html>
